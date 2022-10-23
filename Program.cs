@@ -18,12 +18,6 @@ namespace MenuConsoleApp
 
             ArrayList list = new ArrayList() { "Opcja1", "3", "rt", "Opcja 2", "Bardzo długa opcja", "Opcja 4", "o ja", "OMG to działa" };
             
-
-           
-
-
-
-
             while (true)
             {
                 //initial settings
@@ -36,10 +30,8 @@ namespace MenuConsoleApp
 
 
                 drawTopOfFrame(lengthOfLongest);
-                
-                
-                
-
+      
+          
                 Console.SetCursorPosition(startWidth, ++startHeight);
 
                 for (int i = 0; i < list.Count; i++)
@@ -109,9 +101,6 @@ namespace MenuConsoleApp
             }
 
         }
-
-
-
 
 
 
